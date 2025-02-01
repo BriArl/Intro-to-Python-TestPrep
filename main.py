@@ -1,6 +1,6 @@
 import tkinter as tk
 from tkinter import messagebox
-from PIL import Image, ImageTk  # <-- Required for images
+from PIL import Image, ImageTk
 import json
 import os
 
@@ -20,7 +20,7 @@ def load_correct_answer():
 
 # Function to check the user's answer
 def check_answer():
-    user_answer = answer_box.get("1.0", tk.END).strip()  # Get text from entry box
+    user_answer = answer_box.get("1.0", tk.END).strip()
     correct_answer = load_correct_answer()
 
     if user_answer == correct_answer:
@@ -49,7 +49,7 @@ def previous_question():
 
 # Function to load question data
 def load_question():
-    global img_label, question_image  # Ensure image updates correctly
+    global img_label, question_image  
 
     question_data = questions[current_question]
     question_label.config(text=f"Question {current_question + 1}")
@@ -58,12 +58,12 @@ def load_question():
     image_path = question_data["image"]
     if os.path.exists(image_path):
         img = Image.open(image_path)
-        img = img.resize((500, 375))  # 🔥 Increased size
+        img = img.resize((600, 450))  # 🔥 Increased size
         question_image = ImageTk.PhotoImage(img)
 
         if img_label is None:  # First time loading
             img_label = tk.Label(root, image=question_image)
-            img_label.pack(pady=10)  # 🔥 Add space around image
+            img_label.pack(pady=10)
         else:  # Update existing image
             img_label.config(image=question_image)
     else:
@@ -75,29 +75,34 @@ def load_question():
 # GUI setup
 root = tk.Tk()
 root.title("Python Practice App")
+root.attributes("-fullscreen", True)  # 🔥 Full screen mode
 
-question_label = tk.Label(root, text="Question 1", font=("Arial", 14))
+question_label = tk.Label(root, text="Question 1", font=("Arial", 18))
 question_label.pack()
 
-# 🔥 Image now ABOVE the answer box
-img_label = tk.Label(root)  # Placeholder, updated in load_question()
-img_label.pack(pady=10)  
+# 🔥 Image above answer box
+img_label = tk.Label(root)
+img_label.pack(pady=10)
 
-answer_box = tk.Text(root, height=8, width=50)
-answer_box.pack(pady=10)  # 🔥 Add space
+answer_box = tk.Text(root, height=8, width=70)
+answer_box.pack(pady=10)
 
-# Buttons
-prev_button = tk.Button(root, text="Previous Question", command=previous_question)
-prev_button.pack(side=tk.LEFT, padx=10, pady=10)
+# 🔥 Frame to CENTER buttons
+button_frame = tk.Frame(root)
+button_frame.pack(pady=10)
 
-check_button = tk.Button(root, text="Check Answer", command=check_answer)
-check_button.pack(side=tk.LEFT, padx=10, pady=10)
+prev_button = tk.Button(button_frame, text="Previous Question", command=previous_question)
+prev_button.grid(row=0, column=0, padx=10)
 
-next_button = tk.Button(root, text="Next Question", command=next_question)
-next_button.pack(side=tk.LEFT, padx=10, pady=10)
+check_button = tk.Button(button_frame, text="Check Answer", command=check_answer)
+check_button.grid(row=0, column=1, padx=10)
+
+next_button = tk.Button(button_frame, text="Next Question", command=next_question)
+next_button.grid(row=0, column=2, padx=10)
 
 load_question()
 root.mainloop()
+
 
 
 
