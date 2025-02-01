@@ -37,6 +37,15 @@ def next_question():
     else:
         messagebox.showinfo("Completed", "You have finished all the questions!")
 
+# Function to move to the previous question
+def previous_question():
+    global current_question
+    if current_question > 0:
+        current_question -= 1
+        load_question()
+    else:
+        messagebox.showwarning("No Previous Question", "You are on the first question!")
+
 # Function to load question data
 def load_question():
     global img_label, question_image  # Ensure image updates correctly
@@ -71,6 +80,10 @@ question_label.pack()
 
 answer_box = tk.Text(root, height=8, width=50)
 answer_box.pack()
+
+# Buttons
+prev_button = tk.Button(root, text="Previous Question", command=previous_question)
+prev_button.pack()
 
 check_button = tk.Button(root, text="Check Answer", command=check_answer)
 check_button.pack()
