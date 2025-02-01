@@ -10,6 +10,7 @@ with open("questions.json", "r") as file:
 
 current_question = 0
 img_label = None  # Placeholder for image label
+question_image = None  # Store image reference
 
 # Function to load answer from the .py file
 def load_correct_answer():
@@ -57,12 +58,12 @@ def load_question():
     image_path = question_data["image"]
     if os.path.exists(image_path):
         img = Image.open(image_path)
-        img = img.resize((400, 300))  # Resize to fit in GUI
+        img = img.resize((500, 375))  # 🔥 Increased size
         question_image = ImageTk.PhotoImage(img)
 
         if img_label is None:  # First time loading
             img_label = tk.Label(root, image=question_image)
-            img_label.pack()
+            img_label.pack(pady=10)  # 🔥 Add space around image
         else:  # Update existing image
             img_label.config(image=question_image)
     else:
@@ -78,20 +79,25 @@ root.title("Python Practice App")
 question_label = tk.Label(root, text="Question 1", font=("Arial", 14))
 question_label.pack()
 
+# 🔥 Image now ABOVE the answer box
+img_label = tk.Label(root)  # Placeholder, updated in load_question()
+img_label.pack(pady=10)  
+
 answer_box = tk.Text(root, height=8, width=50)
-answer_box.pack()
+answer_box.pack(pady=10)  # 🔥 Add space
 
 # Buttons
 prev_button = tk.Button(root, text="Previous Question", command=previous_question)
-prev_button.pack()
+prev_button.pack(side=tk.LEFT, padx=10, pady=10)
 
 check_button = tk.Button(root, text="Check Answer", command=check_answer)
-check_button.pack()
+check_button.pack(side=tk.LEFT, padx=10, pady=10)
 
 next_button = tk.Button(root, text="Next Question", command=next_question)
-next_button.pack()
+next_button.pack(side=tk.LEFT, padx=10, pady=10)
 
 load_question()
 root.mainloop()
+
 
 
