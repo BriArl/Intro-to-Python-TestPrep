@@ -72,10 +72,17 @@ def load_question():
     # Clear answer box for new question
     answer_box.delete("1.0", tk.END)
 
+# Function to exit the app
+def exit_app():
+    root.destroy()
+
 # GUI setup
 root = tk.Tk()
 root.title("Python Practice App")
 root.attributes("-fullscreen", True)  # 🔥 Full screen mode
+
+# Allow exiting full-screen with "Esc" key
+root.bind("<Escape>", lambda event: root.attributes("-fullscreen", False))
 
 question_label = tk.Label(root, text="Question 1", font=("Arial", 18))
 question_label.pack()
@@ -100,8 +107,13 @@ check_button.grid(row=0, column=1, padx=10)
 next_button = tk.Button(button_frame, text="Next Question", command=next_question)
 next_button.grid(row=0, column=2, padx=10)
 
+# 🔥 Exit button at the bottom
+exit_button = tk.Button(root, text="Exit", command=exit_app, bg="red", fg="white", font=("Arial", 12, "bold"))
+exit_button.pack(pady=20)
+
 load_question()
 root.mainloop()
+
 
 
 
