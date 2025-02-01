@@ -14,6 +14,167 @@
   {
     "image": "images/Chapter2-IntroToPython/2.15.png",
     "answer_file": "answers/2.15.py"
+  },
+  {
+    "image": "images/Chapter3-IntroToPython/3.12.png",
+    "answer_file": "answers/3.12.py"
+  },
+  {
+    "image": "images/Chapter3-IntroToPython/3.13.png",
+    "answer_file": "answers/3.13.py"
+  },
+  {
+    "image": "images/Chapter3-IntroToPython/3.14.png",
+    "answer_file": "answers/3.14.py"
+  },
+  {
+    "image": "images/Chapter3-IntroToPython/3.15.png",
+    "answer_file": "answers/3.15.py"
+  },
+  {
+    "image": "images/Chapter4-Types/4.12.png",
+    "answer_file": "answers/4.12.py"
+  },
+  {
+    "image": "images/Chapter4-Types/4.13.png",
+    "answer_file": "answers/4.13.py"
+  },
+  {
+    "image": "images/Chapter4-Types/4.14.png",
+    "answer_file": "answers/4.14.py"
+  },
+  {
+    "image": "images/Chapter5-Branching/5.14.png",
+    "answer_file": "answers/5.14.py"
+  },
+  {
+    "image": "images/Chapter5-Branching/5.15.png",
+    "answer_file": "answers/5.15.py"
+  },
+  {
+    "image": "images/Chapter5-Branching/5.16.png",
+    "answer_file": "answers/2.16.py"
+  },
+  {
+    "image": "images/Chapter5-Branching/5.17.png",
+    "answer_file": "answers/2.17.py"
+  },
+  {
+    "image": "images/Chapter6-Loops/6.14.png",
+    "answer_file": "answers/6.14.py"
+  },
+  {
+    "image": "images/Chapter6-Loops/6.15.png",
+    "answer_file": "answers/6.15.py"
+  },
+  {
+    "image": "images/Chapter6-Loops/6.16.png",
+    "answer_file": "answers/6.16.py"
+  },
+  {
+    "image": "images/Chapter6-Loops/6.17.png",
+    "answer_file": "answers/6.17.py"
+  },
+  {
+    "image": "images/Chapter7-Functions/7.18.png",
+    "answer_file": "answers/7.18.py"
+  },
+  {
+    "image": "images/Chapter7-Functions/7.19.png",
+    "answer_file": "answers/7.19.py"
+  },
+  {
+    "image": "images/Chapter7-Functions/7.20.png",
+    "answer_file": "answers/7.20.py"
+  },
+  {
+    "image": "images/Chapter7-Functions/7.21.png",
+    "answer_file": "answers/7.21.py"
+  },
+  {
+    "image": "images/Chapter7-Functions/7.22.png",
+    "answer_file": "answers/7.22.py"
+  },
+  {
+    "image": "images/Chapter10-Strings/10.5.png",
+    "answer_file": "answers/10.5.py"
+  },
+  {
+    "image": "images/Chapter10-Strings/10.6.png",
+    "answer_file": "answers/10.6.py"
+  },
+  {
+    "image": "images/Chapter10-Strings/10.7.png",
+    "answer_file": "answers/10.7.py"
+  },
+  {
+    "image": "images/Chapter10-Strings/10.8.png",
+    "answer_file": "answers/10.8.py"
+  },
+  {
+    "image": "images/Chapter10-Strings/10.9.png",
+    "answer_file": "answers/10.9.py"
+  },
+  {
+    "image": "images/Chapter11-ListAndDictionaries/11.16.png",
+    "answer_file": "answers/11.16.py"
+  },
+  {
+    "image": "images/Chapter11-ListAndDictionaries/11.17.png",
+    "answer_file": "answers/11.17.py"
+  },
+  {
+    "image": "images/Chapter11-ListAndDictionaries/11.18.png",
+    "answer_file": "answers/11.18.py"
+  },
+  {
+    "image": "images/Chapter11-ListAndDictionaries/11.19.png",
+    "answer_file": "answers/.py"
+  },
+  {
+    "image": "images/Chapter11-ListAndDictionaries/11.20.png",
+    "answer_file": "answers/11.20.py"
+  },
+  {
+    "image": "images/Chapter12-Exception/12.7.png",
+    "answer_file": "answers/12.7.py"
+  },
+  {
+    "image": "images/Chapter12-Exception/12.8.png",
+    "answer_file": "answers/12.8.py"
+  },
+  {
+    "image": "images/Chapter12-Exception/12.9.png",
+    "answer_file": "answers/12.9.py"
+  },
+  {
+    "image": "images/Chapter12-Exception/.png",
+    "answer_file": "answers/12.10.py"
+  },
+  {
+    "image": "images/Chapter13-Modules/13.8.png",
+    "answer_file": "answers/13.8.py"
+  },
+  {
+    "image": "images/Chapter13-Modules/13.9.png",
+    "answer_file": "answers/13.9.py"
+  },
+  {
+    "image": "images/Chapter14-Files/14.8.png",
+    "answer_file": "answers/14.8.py"
+  },
+  {
+    "image": "images/Chapter14-Files/14.9.png",
+    "answer_file": "answers/14.9.py"
+  },
+  {
+    "image": "images/Chapter14-Files/14.10.png",
+    "answer_file": "answers/14.10.py"
+  },
+  {
+    "image": "images/Chapter14-Files/14.11.png",
+    "answer_file": "answers/14.11.py"
   }
+
 ]
 
