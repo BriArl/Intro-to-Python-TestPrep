@@ -1,18 +1,19 @@
 [
   {
     "image": "images/Chapter2-IntroToPython/2.12.png",
-    "answer_file": "answers/2.12 answer"
+    "answer_file": "answers/2.12.py"
   },
   {
     "image": "images/Chapter2-IntroToPython/2.13.png",
-    "answer_file": "answers/2.13 answer"
+    "answer_file": "answers/2.13.py"
   },
   {
     "image": "images/Chapter2-IntroToPython/2.14.png",
-    "answer_file": "answers/2.14 answer"
+    "answer_file": "answers/2.14.py"
   },
   {
     "image": "images/Chapter2-IntroToPython/2.15.png",
-    "answer_file": "answers/2.15 answer"
+    "answer_file": "answers/2.15.py"
   }
 ]
+
