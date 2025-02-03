@@ -1,5 +1,5 @@
 import math
-''' Type your code here. '''
+
 # Read input values
 x = float(input())
 y = float(input())
