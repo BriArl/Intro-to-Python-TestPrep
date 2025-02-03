@@ -1,5 +1,3 @@
-''' Calories = ((Age x 0.2757) + (Weight x 0.03295) + (Heart Rate x 1.0781) — 75.4991) x Time / 8.368 '''
-
 # Read input values
 age = float(input())
 weight = float(input())
