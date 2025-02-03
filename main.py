@@ -9,8 +9,8 @@ with open("questions.json", "r") as file:
     questions = json.load(file)
 
 current_question = 0
-img_label = None  # Placeholder for image label
-question_image = None  # Store image reference
+img_label = None
+question_image = None
 
 # Function to load answer from the .py file
 def load_correct_answer():
@@ -72,6 +72,13 @@ def load_question():
     # Clear answer box for new question
     answer_box.delete("1.0", tk.END)
 
+# Function to toggle fullscreen mode
+def toggle_fullscreen():
+    if root.attributes("-fullscreen"):
+        root.attributes("-fullscreen", False)  # Exit fullscreen
+    else:
+        root.attributes("-fullscreen", True)  # Enter fullscreen
+
 # Function to exit the app
 def exit_app():
     root.destroy()
@@ -79,10 +86,19 @@ def exit_app():
 # GUI setup
 root = tk.Tk()
 root.title("Python Practice App")
-root.attributes("-fullscreen", True)  # 🔥 Full screen mode
+root.geometry("900x700")  # 🔥 Starts in normal window mode
 
 # Allow exiting full-screen with "Esc" key
 root.bind("<Escape>", lambda event: root.attributes("-fullscreen", False))
+
+# Add traditional window control buttons
+menu_bar = tk.Menu(root)
+root.config(menu=menu_bar)
+
+window_menu = tk.Menu(menu_bar, tearoff=0)
+window_menu.add_command(label="Toggle Fullscreen", command=toggle_fullscreen)
+window_menu.add_command(label="Exit", command=exit_app)
+menu_bar.add_cascade(label="Window", menu=window_menu)
 
 question_label = tk.Label(root, text="Question 1", font=("Arial", 18))
 question_label.pack()
