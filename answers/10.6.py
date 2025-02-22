@@ -1,9 +1,7 @@
 user_input = input()
 
-# Split the input into parts
 name_parts = user_input.split()
 
-# Check the length of name_parts to determine the format
 if len(name_parts) == 3:
     first_name = name_parts[0]
     middle_name = name_parts[1]

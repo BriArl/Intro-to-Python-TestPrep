@@ -1,15 +1,11 @@
-''' Read in first equation, ax + by = c '''
 a = int(input())
 b = int(input())
 c = int(input())
 
-''' Read in second equation, dx + ey = f '''
 d = int(input())
 e = int(input())
 f = int(input())
 
-''' Type your code here. '''
-# Brute force search for x and y in the range -10 t 10
 solution_found = False
 
 for x in range(-10, 10): # x ranges from -10 to 10

@@ -1,8 +1,6 @@
-# TODO: Import math module
 import math
 
 def quadratic_formula(a, b, c):
-    # TODO: Compute the quadratic formula results in variables x1 and x2
     discriminant = (b ** 2) - (4 * a * c)
     
     x1 = (-b + math.sqrt(discriminant)) / (2 * a)

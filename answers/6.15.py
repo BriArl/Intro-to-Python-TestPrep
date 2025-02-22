@@ -1,7 +1,6 @@
 word = input()
 password = ''
 
-# Iterate through each character through each character in the input word
 for char in word:
     if char == 'i':
         password += '1'
@@ -14,9 +13,8 @@ for char in word:
     elif char == 's':
         password += '$'
     else:
-        password += char # Keep the character uncharged if no replacement
+        password += char
         
-# Append '!' to the strengthened password
 password += '!'
     
 print(password)

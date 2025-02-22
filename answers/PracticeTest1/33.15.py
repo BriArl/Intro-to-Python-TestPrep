@@ -33,21 +33,15 @@ while True:
         if user_string == '-1':
             break
         
-        # Splitting the input string
         parts = user_string.split()
         
-        # Validate if the date has exactly 3 parts and the second part ends with a comma
         if len(parts) == 3 and parts[1][-1] == ',':
-            # Remove the comma from the day part
             day = parts[1][:-1]
             
-            # Get the month as an integer
             month = get_month_as_int(parts[0])
             
-            # Get the year
             year = parts[2]
             
-            # If month is valid and day and year are digits, print in required format
             if month != 0 and day.isdigit() and year.isdigit():
                 print(f"{month}/{int(day)}/{year}")
             else:
@@ -56,6 +50,5 @@ while True:
             print("Invalid date format.")
     
     except EOFError:
-        # Handle the EOFError if input is suddenly cut off (optional, for robust handling)
         print("Input was cut off unexpectedly.")
         break

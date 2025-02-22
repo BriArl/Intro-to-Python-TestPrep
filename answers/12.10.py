@@ -1,7 +1,6 @@
-# Define custom exception
 class StudentInfoError(Exception):
     def __init__(self, message):
-        self.message = message  # Initialize the exception message
+        self.message = message
 
 def find_ID(name, info):
     """Returns the student's ID if found, otherwise raises StudentInfoError."""
@@ -18,7 +17,6 @@ def find_name(ID, info):
     raise StudentInfoError(f"Student name not found for {ID}")
 
 if __name__ == '__main__':
-    # Dictionary of student names and IDs
     student_info = {
         'Reagan' : 'rebradshaw835',
         'Ryley' : 'rbarber894',
@@ -27,7 +25,7 @@ if __name__ == '__main__':
         'Caius' : 'ccharlton329'
     }
     
-    userChoice = input()  # Read search option from user. 0: find_ID(), 1: find_name()
+    userChoice = input()
 
     try:
         if userChoice == "0":
@@ -36,6 +34,6 @@ if __name__ == '__main__':
         else:
             ID = input()
             result = find_name(ID, student_info)
-        print(result)  # Print the found ID or name
+        print(result)
     except StudentInfoError as e:
-        print(e.message)  # Print the custom exception message
+        print(e.message)
