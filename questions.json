@@ -1,356 +1,355 @@
-[
   {
     "Chapter 2": [
   
-  {
-    "image": "images/Chapter2-IntroToPython/2.12.png",
-    "answer_file": "answers/2.12.py"
-  },
-  {
-    "image": "images/Chapter2-IntroToPython/2.13.png",
-    "answer_file": "answers/2.13.py"
-  },
-  {
-    "image": "images/Chapter2-IntroToPython/2.14.png",
-    "answer_file": "answers/2.14.py"
-  },
-  {
-    "image": "images/Chapter2-IntroToPython/2.15.png",
-    "answer_file": "answers/2.15.py"
-  }]},
+    {
+      "image": "images/Chapter2-IntroToPython/2.12.png",
+      "answer_file": "answers/2.12.py"
+    },
+    {
+      "image": "images/Chapter2-IntroToPython/2.13.png",
+      "answer_file": "answers/2.13.py"
+    },
+    {
+      "image": "images/Chapter2-IntroToPython/2.14.png",
+      "answer_file": "answers/2.14.py"
+    },
+    {
+      "image": "images/Chapter2-IntroToPython/2.15.png",
+      "answer_file": "answers/2.15.py"
+    }
+  ],
 
-
-  {
     "Chapter 3": [
-  {
-    "image": "images/Chapter3-VariablesAndExpressions/3.12.png",
-    "answer_file": "answers/3.12.py"
-  },
-  {
-    "image": "images/Chapter3-VariablesAndExpressions/3.13.png",
-    "answer_file": "answers/3.13.py"
-  },
-  {
-    "image": "images/Chapter3-VariablesAndExpressions/3.14.png",
-    "answer_file": "answers/3.14.py"
-  },
-  {
-    "image": "images/Chapter3-VariablesAndExpressions/3.15.png",
-    "answer_file": "answers/3.15.py"
-  }]},
 
-{
+    {
+      "image": "images/Chapter3-VariablesAndExpressions/3.12.png",
+      "answer_file": "answers/3.12.py"
+    },
+    {
+      "image": "images/Chapter3-VariablesAndExpressions/3.13.png",
+      "answer_file": "answers/3.13.py"
+    },
+    {
+      "image": "images/Chapter3-VariablesAndExpressions/3.14.png",
+      "answer_file": "answers/3.14.py"
+    },
+    {
+      "image": "images/Chapter3-VariablesAndExpressions/3.15.png",
+      "answer_file": "answers/3.15.py"
+  }
+],
+
   "Chapter 4": [
-  {
-    "image": "images/Chapter4-Types/4.12.png",
-    "answer_file": "answers/4.12.py"
-  },
-  {
-    "image": "images/Chapter4-Types/4.13.png",
-    "answer_file": "answers/4.13.py"
-  },
-  {
-    "image": "images/Chapter4-Types/4.14.png",
-    "answer_file": "answers/4.14.py"
-  }]},
+    {
+      "image": "images/Chapter4-Types/4.12.png",
+      "answer_file": "answers/4.12.py"
+    },
+    {
+      "image": "images/Chapter4-Types/4.13.png",
+      "answer_file": "answers/4.13.py"
+    },
+    {
+      "image": "images/Chapter4-Types/4.14.png",
+      "answer_file": "answers/4.14.py"
+    }
+  ],
   
-  {
     "Chapter 5": [
-  {
-    "image": "images/Chapter5-Branching/5.14.png",
-    "answer_file": "answers/5.14.py"
-  },
-  {
-    "image": "images/Chapter5-Branching/5.15.png",
-    "answer_file": "answers/5.15.py"
-  },
-  {
-    "image": "images/Chapter5-Branching/5.16.png",
-    "answer_file": "answers/2.16.py"
-  },
-  {
-    "image": "images/Chapter5-Branching/5.17.png",
-    "answer_file": "answers/2.17.py"
-  }]},
+    {
+      "image": "images/Chapter5-Branching/5.14.png",
+      "answer_file": "answers/5.14.py"
+    },
+    {
+      "image": "images/Chapter5-Branching/5.15.png",
+      "answer_file": "answers/5.15.py"
+    },
+    {
+      "image": "images/Chapter5-Branching/5.16.png",
+      "answer_file": "answers/2.16.py"
+    },
+    {
+      "image": "images/Chapter5-Branching/5.17.png",
+      "answer_file": "answers/2.17.py"
+    }
+  ],
   
-  {
     "Chapter 6": [
-  {
-    "image": "images/Chapter6-Loops/6.14.png",
-    "answer_file": "answers/6.14.py"
-  },
-  {
-    "image": "images/Chapter6-Loops/6.15.png",
-    "answer_file": "answers/6.15.py"
-  },
-  {
-    "image": "images/Chapter6-Loops/6.16.png",
-    "answer_file": "answers/6.16.py"
-  },
-  {
-    "image": "images/Chapter6-Loops/6.17.png",
-    "answer_file": "answers/6.17.py"
-  }]},
+    {
+      "image": "images/Chapter6-Loops/6.14.png",
+      "answer_file": "answers/6.14.py"
+    },
+    {
+      "image": "images/Chapter6-Loops/6.15.png",
+      "answer_file": "answers/6.15.py"
+    },
+    {
+      "image": "images/Chapter6-Loops/6.16.png",
+      "answer_file": "answers/6.16.py"
+    },
+    {
+      "image": "images/Chapter6-Loops/6.17.png",
+      "answer_file": "answers/6.17.py"
+    }
+  ],
   
-  {
     "Chapter 7": [
-  {
-    "image": "images/Chapter7-Functions/7.18.png",
-    "answer_file": "answers/7.18.py"
-  },
-  {
-    "image": "images/Chapter7-Functions/7.19.png",
-    "answer_file": "answers/7.19.py"
-  },
-  {
-    "image": "images/Chapter7-Functions/7.20.png",
-    "answer_file": "answers/7.20.py"
-  },
-  {
-    "image": "images/Chapter7-Functions/7.21.png",
-    "answer_file": "answers/7.21.py"
-  },
-  {
-    "image": "images/Chapter7-Functions/7.22.png",
-    "answer_file": "answers/7.22.py"
-  }]},
+    {
+      "image": "images/Chapter7-Functions/7.18.png",
+      "answer_file": "answers/7.18.py"
+    },
+    {
+      "image": "images/Chapter7-Functions/7.19.png",
+      "answer_file": "answers/7.19.py"
+    },
+    {
+      "image": "images/Chapter7-Functions/7.20.png",
+      "answer_file": "answers/7.20.py"
+    },
+    {
+      "image": "images/Chapter7-Functions/7.21.png",
+      "answer_file": "answers/7.21.py"
+    },
+    {
+      "image": "images/Chapter7-Functions/7.22.png",
+      "answer_file": "answers/7.22.py"
+    }
+  ],
 
-{
   "Chapter 10": [
-  {
-    "image": "images/Chapter10-Strings/10.5.png",
-    "answer_file": "answers/10.5.py"
-  },
-  {
-    "image": "images/Chapter10-Strings/10.6.png",
-    "answer_file": "answers/10.6.py"
-  },
-  {
-    "image": "images/Chapter10-Strings/10.7.png",
-    "answer_file": "answers/10.7.py"
-  },
-  {
-    "image": "images/Chapter10-Strings/10.8.png",
-    "answer_file": "answers/10.8.py"
-  },
-  {
-    "image": "images/Chapter10-Strings/10.9.png",
-    "answer_file": "answers/10.9.py"
-  }]},
+    {
+      "image": "images/Chapter10-Strings/10.5.png",
+      "answer_file": "answers/10.5.py"
+    },
+    {
+      "image": "images/Chapter10-Strings/10.6.png",
+      "answer_file": "answers/10.6.py"
+    },
+    {
+      "image": "images/Chapter10-Strings/10.7.png",
+      "answer_file": "answers/10.7.py"
+    },
+    {
+      "image": "images/Chapter10-Strings/10.8.png",
+      "answer_file": "answers/10.8.py"
+    },
+    {
+      "image": "images/Chapter10-Strings/10.9.png",
+      "answer_file": "answers/10.9.py"
+    }
+  ],
 
-{
   "Chapter 11": [
-  {
-    "image": "images/Chapter11-ListAndDictionaries/11.16.png",
-    "answer_file": "answers/11.16.py"
-  },
-  {
-    "image": "images/Chapter11-ListAndDictionaries/11.17.png",
-    "answer_file": "answers/11.17.py"
-  },
-  {
-    "image": "images/Chapter11-ListAndDictionaries/11.18.png",
-    "answer_file": "answers/11.18.py"
-  },
-  {
-    "image": "images/Chapter11-ListAndDictionaries/11.19.png",
-    "answer_file": "answers/.py"
-  },
-  {
-    "image": "images/Chapter11-ListAndDictionaries/11.20.png",
-    "answer_file": "answers/11.20.py"
-  }]},
+    {
+      "image": "images/Chapter11-ListAndDictionaries/11.16.png",
+      "answer_file": "answers/11.16.py"
+    },
+    {
+      "image": "images/Chapter11-ListAndDictionaries/11.17.png",
+      "answer_file": "answers/11.17.py"
+    },
+    {
+      "image": "images/Chapter11-ListAndDictionaries/11.18.png",
+      "answer_file": "answers/11.18.py"
+    },
+    {
+      "image": "images/Chapter11-ListAndDictionaries/11.19.png",
+      "answer_file": "answers/.py"
+    },
+    {
+      "image": "images/Chapter11-ListAndDictionaries/11.20.png",
+      "answer_file": "answers/11.20.py"
+    }
+  ],
 
-{
   "Chapter 12": [
-  {
-    "image": "images/Chapter12-Exception/12.7.png",
-    "answer_file": "answers/12.7.py"
-  },
-  {
-    "image": "images/Chapter12-Exception/12.8.png",
-    "answer_file": "answers/12.8.py"
-  },
-  {
-    "image": "images/Chapter12-Exception/12.9.png",
-    "answer_file": "answers/12.9.py"
-  },
-  {
-    "image": "images/Chapter12-Exception/12.10.png",
-    "answer_file": "answers/12.10.py"
-  }]},
+    {
+      "image": "images/Chapter12-Exception/12.7.png",
+      "answer_file": "answers/12.7.py"
+    },
+    {
+      "image": "images/Chapter12-Exception/12.8.png",
+      "answer_file": "answers/12.8.py"
+    },
+    {
+      "image": "images/Chapter12-Exception/12.9.png",
+      "answer_file": "answers/12.9.py"
+    },
+    {
+      "image": "images/Chapter12-Exception/12.10.png",
+      "answer_file": "answers/12.10.py"
+  }
+],
 
-{
   "Chapter 13": [
-  {
-    "image": "images/Chapter13-Modules/13.8.png",
-    "answer_file": "answers/13.8.py"
-  },
-  {
-    "image": "images/Chapter13-Modules/13.9.png",
-    "answer_file": "answers/13.9.py"
-  }]},
+    {
+      "image": "images/Chapter13-Modules/13.8.png",
+      "answer_file": "answers/13.8.py"
+    },
+    {
+      "image": "images/Chapter13-Modules/13.9.png",
+      "answer_file": "answers/13.9.py"
+    }
+  ],
 
-  {
-  "Chapter 14": [
-  {
-    "image": "images/Chapter14-Files/14.8.png",
-    "answer_file": "answers/14.8.py"
-  },
-  {
-    "image": "images/Chapter14-Files/14.9.png",
-    "answer_file": "answers/14.9.py"
-  },
-  {
-    "image": "images/Chapter14-Files/14.10.png",
-    "answer_file": "answers/14.10.py"
-  },
-  {
-    "image": "images/Chapter14-Files/14.11.png",
-    "answer_file": "answers/14.11.py"
-  }]},
+    "Chapter 14": [
+    {
+      "image": "images/Chapter14-Files/14.8.png",
+      "answer_file": "answers/14.8.py"
+    },
+    {
+      "image": "images/Chapter14-Files/14.9.png",
+      "answer_file": "answers/14.9.py"
+    },
+    {
+      "image": "images/Chapter14-Files/14.10.png",
+      "answer_file": "answers/14.10.py"
+    },
+    {
+      "image": "images/Chapter14-Files/14.11.png",
+      "answer_file": "answers/14.11.py"
+    }
+  ],
 
-  {
     "Practice Test 1": [
-      {
-        "image": "images/PracticeTest1/33.1.png",
-        "answer_file": "answers/PracticeTest1/33.1.py"
-      },
-      {
-        "image": "images/PracticeTest1/33.2.png",
-        "answer_file": "answers/PracticeTest1/33.2.py"
-      },
-      {
-        "image": "images/PracticeTest1/33.3.png",
-        "answer_file": "answers/PracticeTest1/33.3.py"
-      },
-      {
-        "image": "images/PracticeTest1/33.4.png",
-        "answer_file": "answers/PracticeTest1/33.4.py"
-      },
-      {
-        "image": "images/PracticeTest1/33.5.png",
-        "answer_file": "answers/PracticeTest1/33.5.py"
-      },
-      {
-        "image": "images/PracticeTest1/33.6.png",
-        "answer_file": "answers/PracticeTest1/33.6.py"
-      },
-      {
-        "image": "images/PracticeTest1/33.7.png",
-        "answer_file": "answers/PracticeTest1/33.7.py"
-      },
-      {
-        "image": "images/PracticeTest1/33.8.png",
-        "answer_file": "answers/PracticeTest1/33.8.py"
-      },
-      {
-        "image": "images/PracticeTest1/33.9.png",
-        "answer_file": "answers/PracticeTest1/33.9.py"
-      },
-      {
-        "image": "images/PracticeTest1/33.10.png",
-        "answer_file": "answers/PracticeTest1/33.10.py"
-      },
-      {
-        "image": "images/PracticeTest1/33.11.png",
-        "answer_file": "answers/PracticeTest1/33.11.py"
-      },
-      {
-        "image": "images/PracticeTest1/33.12.png",
-        "answer_file": "answers/PracticeTest1/33.12.py"
-      },
-      {
-        "image": "images/PracticeTest1/33.14.png",
-        "answer_file": "answers/PracticeTest1/33.14.py"
-      },
-      {
-        "image": "images/PracticeTest1/33.15.png",
-        "answer_file": "answers/PracticeTest1/33.15.py"
-      },
-      {
-        "image": "images/PracticeTest1/33.16.png",
-        "answer_file": "answers/PracticeTest1/33.16.py"
-      },
-      {
-        "image": "images/PracticeTest1/33.17.png",
-        "answer_file": "answers/PracticeTest1/33.17.py"
-      },
-      {
-        "image": "images/PracticeTest1/33.18.png",
-        "answer_file": "answers/PracticeTest1/33.18.py"
-      },
-      {
-        "image": "images/PracticeTest1/33.19.png",
-        "answer_file": "answers/PracticeTest1/33.19.py"
-      },
-      {
-        "image": "images/PracticeTest1/33.20.png",
-        "answer_file": "answers/PracticeTest1/33.20.py"
-      }]},
+    {
+      "image": "images/PracticeTest1/33.1.png",
+      "answer_file": "answers/PracticeTest1/33.1.py"
+    },
+    {
+      "image": "images/PracticeTest1/33.2.png",
+      "answer_file": "answers/PracticeTest1/33.2.py"
+    },
+    {
+      "image": "images/PracticeTest1/33.3.png",
+      "answer_file": "answers/PracticeTest1/33.3.py"
+    },
+    {
+      "image": "images/PracticeTest1/33.4.png",
+      "answer_file": "answers/PracticeTest1/33.4.py"
+    },
+    {
+      "image": "images/PracticeTest1/33.5.png",
+      "answer_file": "answers/PracticeTest1/33.5.py"
+    },
+    {
+      "image": "images/PracticeTest1/33.6.png",
+      "answer_file": "answers/PracticeTest1/33.6.py"
+    },
+    {
+      "image": "images/PracticeTest1/33.7.png",
+      "answer_file": "answers/PracticeTest1/33.7.py"
+    },
+    {
+      "image": "images/PracticeTest1/33.8.png",
+      "answer_file": "answers/PracticeTest1/33.8.py"
+    },
+    {
+      "image": "images/PracticeTest1/33.9.png",
+      "answer_file": "answers/PracticeTest1/33.9.py"
+    },
+    {
+      "image": "images/PracticeTest1/33.10.png",
+      "answer_file": "answers/PracticeTest1/33.10.py"
+    },
+    {
+      "image": "images/PracticeTest1/33.11.png",
+      "answer_file": "answers/PracticeTest1/33.11.py"
+    },
+    {
+      "image": "images/PracticeTest1/33.12.png",
+      "answer_file": "answers/PracticeTest1/33.12.py"
+    },
+    {
+      "image": "images/PracticeTest1/33.14.png",
+      "answer_file": "answers/PracticeTest1/33.14.py"
+    },
+    {
+      "image": "images/PracticeTest1/33.15.png",
+      "answer_file": "answers/PracticeTest1/33.15.py"
+    },
+    {
+      "image": "images/PracticeTest1/33.16.png",
+      "answer_file": "answers/PracticeTest1/33.16.py"
+    },
+    {
+      "image": "images/PracticeTest1/33.17.png",
+      "answer_file": "answers/PracticeTest1/33.17.py"
+    },
+    {
+      "image": "images/PracticeTest1/33.18.png",
+      "answer_file": "answers/PracticeTest1/33.18.py"
+    },
+    {
+      "image": "images/PracticeTest1/33.19.png",
+      "answer_file": "answers/PracticeTest1/33.19.py"
+    },
+    {
+      "image": "images/PracticeTest1/33.20.png",
+      "answer_file": "answers/PracticeTest1/33.20.py"
+    }
+  ],
 
-  {
     "Practice Test 2": [
-      {
-        "image": "images/PracticeTest2/34.1.png",
-        "answer_file": "answers/PracticeTest2/34.1.py"
-      },
-      {
-        "image": "images/PracticeTest2/34.2.png",
-        "answer_file": "answers/PracticeTest2/34.2.py"
-      },
-      {
-        "image": "images/PracticeTest2/34.3.png",
-        "answer_file": "answers/PracticeTest2/34.3.py"
-      },
-      {
-        "image": "images/PracticeTest2/34.4.png",
-        "answer_file": "answers/PracticeTest2/34.4.py"
-      },
-      {
-        "image": "images/PracticeTest2/34.5.png",
-        "answer_file": "answers/PracticeTest2/34.5.py"
-      },
-      {
-        "image": "images/PracticeTest2/34.6.png",
-        "answer_file": "answers/PracticeTest2/34.6.py"
-      },
-      {
-        "image": "images/PracticeTest2/34.7.png",
-        "answer_file": "answers/PracticeTest2/34.7.py"
-      },
-      {
-        "image": "images/PracticeTest2/34.8.png",
-        "answer_file": "answers/PracticeTest2/34.8.py"
-      },
-      {
-        "image": "images/PracticeTest2/34.9.png",
-        "answer_file": "answers/PracticeTest2/34.9.py"
-      },
-      {
-        "image": "images/PracticeTest2/34.10.png",
-        "answer_file": "answers/PracticeTest2/34.10.py"
-      },
-      {
-        "image": "images/PracticeTest2/34.11.png",
-        "answer_file": "answers/PracticeTest2/34.11.py"
-      },
-      {
-        "image": "images/PracticeTest2/34.12.png",
-        "answer_file": "answers/PracticeTest2/34.12.py"
-      },
-      {
-        "image": "images/PracticeTest2/34.13.png",
-        "answer_file": "answers/PracticeTest2/34.13.py"
-      },
-      {
-        "image": "images/PracticeTest2/34.14.png",
-        "answer_file": "answers/PracticeTest2/34.14.py"
-      },
-      {
-        "image": "images/PracticeTest2/34.15.png",
-        "answer_file": "answers/PracticeTest2/34.15.py"
-      }]}
+    {
+      "image": "images/PracticeTest2/34.1.png",
+      "answer_file": "answers/PracticeTest2/34.1.py"
+    },
+    {
+      "image": "images/PracticeTest2/34.2.png",
+      "answer_file": "answers/PracticeTest2/34.2.py"
+    },
+    {
+      "image": "images/PracticeTest2/34.3.png",
+      "answer_file": "answers/PracticeTest2/34.3.py"
+    },
+    {
+      "image": "images/PracticeTest2/34.4.png",
+      "answer_file": "answers/PracticeTest2/34.4.py"
+    },
+    {
+      "image": "images/PracticeTest2/34.5.png",
+      "answer_file": "answers/PracticeTest2/34.5.py"
+    },
+    {
+      "image": "images/PracticeTest2/34.6.png",
+      "answer_file": "answers/PracticeTest2/34.6.py"
+    },
+    {
+      "image": "images/PracticeTest2/34.7.png",
+      "answer_file": "answers/PracticeTest2/34.7.py"
+    },
+    {
+      "image": "images/PracticeTest2/34.8.png",
+      "answer_file": "answers/PracticeTest2/34.8.py"
+    },
+    {
+      "image": "images/PracticeTest2/34.9.png",
+      "answer_file": "answers/PracticeTest2/34.9.py"
+    },
+    {
+      "image": "images/PracticeTest2/34.10.png",
+      "answer_file": "answers/PracticeTest2/34.10.py"
+    },
+    {
+      "image": "images/PracticeTest2/34.11.png",
+      "answer_file": "answers/PracticeTest2/34.11.py"
+    },
+    {
+      "image": "images/PracticeTest2/34.12.png",
+      "answer_file": "answers/PracticeTest2/34.12.py"
+    },
+    {
+      "image": "images/PracticeTest2/34.13.png",
+      "answer_file": "answers/PracticeTest2/34.13.py"
+    },
+    {
+      "image": "images/PracticeTest2/34.14.png",
+      "answer_file": "answers/PracticeTest2/34.14.py"
+    },
+    {
+      "image": "images/PracticeTest2/34.15.png",
+      "answer_file": "answers/PracticeTest2/34.15.py"
+    }]
+  }
 
-  ]
 
